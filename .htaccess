@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+# redirect to index.php and load the appropriate page view
+RewriteRule ^([A-Za-z0-9-]+)/?$   index.php?page=$1 [QSA,NC,L]

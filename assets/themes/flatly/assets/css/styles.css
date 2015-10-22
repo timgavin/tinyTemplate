@@ -1,0 +1,8 @@
+body {
+    min-height: 2000px;
+    padding-top: 100px;
+    font-size: 18px;
+}
+.form-control {
+    height: 40px;
+}
