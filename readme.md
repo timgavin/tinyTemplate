@@ -1,15 +1,15 @@
 
-#tinyTemplate
+# tinyTemplate
 
 tinyTemplate is a *very* simple PHP template engine aimed at those who have little to no experience with PHP or PHP templates. In fact, you don't need to know a lick of PHP to use tinyTemplate; you only need to know HTML and how to copy/paste.
 
 tinyTemplate uses `.htaccess` and Apache's `mod_rewrite` to automatically load your pages into the tinyTemplate engine.
 
-##Basic Template Example
+## Basic Template Example
 
 Here is an example of a basic tinyTemplate web page. This is pretty much what all of your site pages will look like; just enter your content between the appropriate `tiny()` functions and tinyTemplate does the rest - including stripping the `.php` extension from your files to craft pretty urls!
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -42,13 +42,13 @@ Here is an example of a basic tinyTemplate web page. This is pretty much what al
 </html>
 ```
 
-##Page Example
+## Page Example
 
 Here is an example of a basic tinyTemplate HTML page. This is pretty much what all of your site pages will look like; just enter your content between the appropriate tags and tinyTemplate does the rest!
 
 As you can see, tinyTemplate makes it easy to add custom meta tags, css files and javaScripts to each page so you don't have to load up your base template with tons of files and scripts that you only use once or twice, which can help your pages be a little faster. Plus, all of your content is contained in each page file, so you don't have to hunt and peck your directories for page fragments.
 
-```
+```html
 {{ title }}
     My Page Title
 {{ !title }}
@@ -89,7 +89,7 @@ As you can see, tinyTemplate makes it easy to add custom meta tags, css files an
 {{ !jquery }}
 ```
 
-##Installation
+## Installation
 
 1. Download tinyTemplate.
 1. Unzip the archive into your web root.
